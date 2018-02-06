@@ -13,7 +13,6 @@ def replaceObscure(txt):
     txt = txt.replace(replacable, ".")
   return txt
 
-#line = "test@hotmail.com asldkfja sdf;lkasjdf asldkf asdkfj asdflkj sdkfj 2sdfsdf@asdfsdf.com fawazz at kskom   zgat[at]xxx.com asdf(at)asdf(dot)com x @ testing . com"
 emails = []
 quote_page = None
 while type(quote_page) != str:
